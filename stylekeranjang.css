@@ -1,0 +1,441 @@
+.keranjang {
+    background-color: #fffbfb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .keranjang .overlap-wrapper {
+    background-color: #fffbfb;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .keranjang .overlap {
+    position: relative;
+    height: 1024px;
+    background-image: url(./img/wp2581005-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .keranjang .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 111px;
+    top: 0;
+    left: 0;
+  }
+  
+  .keranjang .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 106px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffbf;
+    overflow: hidden;
+  }
+  
+  .keranjang .collapse-navbar {
+    position: absolute;
+    width: 1012px;
+    height: 58px;
+    top: 24px;
+    left: 554px;
+  }
+  
+  .keranjang .navbar-nav {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: 2px;
+    left: 668px;
+  }
+  
+  .keranjang .li {
+    position: relative;
+    width: 166px;
+    height: 54px;
+  }
+  
+  .keranjang .a {
+    height: 54px;
+  }
+  
+  .keranjang .btn {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    position: relative;
+    border-radius: 37px;
+    overflow: hidden;
+  }
+  
+  .keranjang .icn-settings-icn-xs {
+    position: relative;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .keranjang .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--link-font-family);
+    font-weight: var(--link-font-weight);
+    color: #536502;
+    font-size: var(--link-font-size);
+    text-align: center;
+    letter-spacing: var(--link-letter-spacing);
+    line-height: var(--link-line-height);
+    white-space: nowrap;
+    font-style: var(--link-font-style);
+  }
+  
+  .keranjang .div {
+    position: absolute;
+    top: 32px;
+    left: 191px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #536502;
+    font-size: 30px;
+    letter-spacing: 0.30px;
+    line-height: normal;
+  }
+  
+  .keranjang .duriango {
+    position: absolute;
+    width: 117px;
+    height: 111px;
+    top: 0;
+    left: 59px;
+    object-fit: cover;
+  }
+  
+  .keranjang .interface-arrows {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 112px;
+    left: 20px;
+    transform: rotate(-0.67deg);
+  }
+  
+  .keranjang .group {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 1px;
+    left: 1px;
+    transform: rotate(0.67deg);
+  }
+  
+  .keranjang .overlap-2 {
+    position: absolute;
+    width: 1336px;
+    height: 806px;
+    top: 185px;
+    left: 60px;
+  }
+  
+  .keranjang .overlap-group-wrapper {
+    position: absolute;
+    width: 1336px;
+    height: 806px;
+    top: 0;
+    left: 0;
+  }
+  
+  .keranjang .overlap-group-2 {
+    position: relative;
+    width: 1334px;
+    height: 806px;
+  }
+  
+  .keranjang .rectangle {
+    position: absolute;
+    width: 1334px;
+    height: 806px;
+    top: 0;
+    left: 0;
+    background-color: #e3e9ef;
+    opacity: 0.7;
+  }
+  
+  .keranjang .pesanan {
+    position: absolute;
+    width: 1255px;
+    height: 222px;
+    top: 301px;
+    left: 58px;
+    background-color: #d9d9d980;
+    border-radius: 25px;
+  }
+  
+  .keranjang .durian-with-ai {
+    position: absolute;
+    width: 435px;
+    height: 193px;
+    top: 15px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .keranjang .text-wrapper-2 {
+    position: absolute;
+    height: 22px;
+    top: 428px;
+    left: 944px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .keranjang .ubah {
+    top: 322px;
+    left: 1205px;
+    position: absolute;
+    width: 41px;
+    height: 162px;
+  }
+  
+  .keranjang .interface-delete-bin {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 122px;
+    left: 0;
+  }
+  
+  .keranjang .img {
+    position: absolute;
+    width: 35px;
+    height: 38px;
+    top: 1px;
+    left: 2px;
+  }
+  
+  .keranjang .interface-remove {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 61px;
+    left: 1px;
+  }
+  
+  .keranjang .vector {
+    position: absolute;
+    width: 38px;
+    height: 10px;
+    top: 15px;
+    left: 1px;
+  }
+  
+  .keranjang .interface-edit-layer {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 0;
+  }
+  
+  .keranjang .div-wrapper {
+    position: relative;
+    width: 37px;
+    height: 37px;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .keranjang .overlap-group-3 {
+    position: relative;
+    width: 38px;
+    height: 38px;
+  }
+  
+  .keranjang .vector-2 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 9px;
+    left: 0;
+  }
+  
+  .keranjang .vector-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 9px;
+  }
+  
+  .keranjang .group-2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 16px;
+    left: 7px;
+  }
+  
+  .keranjang .text-wrapper-3 {
+    position: absolute;
+    top: 337px;
+    left: 541px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .keranjang .checkout {
+    position: absolute;
+    width: 1261px;
+    height: 227px;
+    top: 56px;
+    left: 58px;
+  }
+  
+  .keranjang .overlap-3 {
+    position: relative;
+    width: 1255px;
+    height: 227px;
+    background-color: #d9d9d980;
+    border-radius: 25px;
+  }
+  
+  .keranjang .ubah-2 {
+    top: 33px;
+    left: 1147px;
+    position: absolute;
+    width: 41px;
+    height: 162px;
+  }
+  
+  .keranjang .text-wrapper-4 {
+    position: absolute;
+    top: 42px;
+    left: 483px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .keranjang .text-wrapper-5 {
+    position: absolute;
+    height: 22px;
+    top: 131px;
+    left: 886px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .keranjang .text-wrapper-6 {
+    top: 135px;
+    left: 483px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .keranjang .durian-with-ai-2 {
+    position: absolute;
+    width: 435px;
+    height: 197px;
+    top: 15px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .keranjang .text-wrapper-7 {
+    top: 433px;
+    left: 541px;
+    position: absolute;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .keranjang .money-cash-bill {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 160px;
+    left: 1096px;
+  }
+  
+  .keranjang .group-3 {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .keranjang .group-wrapper {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 399px;
+    left: 1096px;
+  }
+  
+  .keranjang .button-checkout {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    width: 230px;
+    height: 75px;
+    top: 706px;
+    left: 1067px;
+  }
+  
+  .keranjang .overlap-4 {
+    position: relative;
+    width: 228px;
+    height: 75px;
+    background-color: #d0ff00;
+  }
+  
+  .keranjang .text-wrapper-8 {
+    position: absolute;
+    top: 27px;
+    left: 44px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }

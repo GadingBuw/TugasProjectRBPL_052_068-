@@ -1,0 +1,394 @@
+.riwayat-pemesanan {
+    background-color: #fffbfb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .riwayat-pemesanan .overlap-wrapper {
+    background-color: #fffbfb;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .riwayat-pemesanan .overlap {
+    position: relative;
+    height: 1024px;
+    background-image: url(./img/wp2581005-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .riwayat-pemesanan .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 111px;
+    top: 0;
+    left: 0;
+  }
+  
+  .riwayat-pemesanan .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 106px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffbf;
+    overflow: hidden;
+  }
+  
+  .riwayat-pemesanan .collapse-navbar {
+    position: absolute;
+    width: 1012px;
+    height: 58px;
+    top: 24px;
+    left: 554px;
+  }
+  
+  .riwayat-pemesanan .navbar-nav {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: 2px;
+    left: 668px;
+  }
+  
+  .riwayat-pemesanan .li {
+    position: relative;
+    width: 166px;
+    height: 54px;
+  }
+  
+  .riwayat-pemesanan .a {
+    height: 54px;
+  }
+  
+  .riwayat-pemesanan .btn {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    position: relative;
+    border-radius: 37px;
+    overflow: hidden;
+  }
+  
+  .riwayat-pemesanan .icn-settings-icn-xs {
+    position: relative;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .riwayat-pemesanan .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--link-font-family);
+    font-weight: var(--link-font-weight);
+    color: #536502;
+    font-size: var(--link-font-size);
+    text-align: center;
+    letter-spacing: var(--link-letter-spacing);
+    line-height: var(--link-line-height);
+    white-space: nowrap;
+    font-style: var(--link-font-style);
+  }
+  
+  .riwayat-pemesanan .div {
+    position: absolute;
+    top: 32px;
+    left: 191px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #536502;
+    font-size: 30px;
+    letter-spacing: 0.30px;
+    line-height: normal;
+  }
+  
+  .riwayat-pemesanan .duriango {
+    position: absolute;
+    width: 117px;
+    height: 111px;
+    top: 0;
+    left: 59px;
+    object-fit: cover;
+  }
+  
+  .riwayat-pemesanan .interface-arrows {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 112px;
+    left: 20px;
+    transform: rotate(-0.67deg);
+  }
+  
+  .riwayat-pemesanan .group {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 1px;
+    left: 1px;
+    transform: rotate(0.67deg);
+  }
+  
+  .riwayat-pemesanan .overlap-2 {
+    position: absolute;
+    width: 1336px;
+    height: 806px;
+    top: 185px;
+    left: 60px;
+  }
+  
+  .riwayat-pemesanan .keranjang {
+    position: absolute;
+    width: 1336px;
+    height: 806px;
+    top: 0;
+    left: 0;
+  }
+  
+  .riwayat-pemesanan .overlap-group-2 {
+    position: relative;
+    width: 1334px;
+    height: 806px;
+  }
+  
+  .riwayat-pemesanan .rectangle {
+    position: absolute;
+    width: 1334px;
+    height: 806px;
+    top: 0;
+    left: 0;
+    background-color: #e3e9ef;
+    opacity: 0.7;
+  }
+  
+  .riwayat-pemesanan .pesanan {
+    position: absolute;
+    width: 1255px;
+    height: 222px;
+    top: 301px;
+    left: 58px;
+    background-color: #d9d9d980;
+    border-radius: 25px;
+  }
+  
+  .riwayat-pemesanan .text-wrapper-2 {
+    position: absolute;
+    height: 22px;
+    top: 390px;
+    left: 932px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .ubah {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 444px;
+    left: 1205px;
+  }
+  
+  .riwayat-pemesanan .interface-delete-bin {
+    position: relative;
+    height: 40px;
+  }
+  
+  .riwayat-pemesanan .img {
+    position: absolute;
+    width: 35px;
+    height: 38px;
+    top: 1px;
+    left: 2px;
+  }
+  
+  .riwayat-pemesanan .text-wrapper-3 {
+    position: absolute;
+    top: 340px;
+    left: 366px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .checkout {
+    position: absolute;
+    width: 1265px;
+    height: 420px;
+    top: 56px;
+    left: 58px;
+  }
+  
+  .riwayat-pemesanan .overlap-3 {
+    position: absolute;
+    width: 1255px;
+    height: 227px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d980;
+    border-radius: 25px;
+  }
+  
+  .riwayat-pemesanan .interface-delete-bin-wrapper {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 155px;
+    left: 1147px;
+  }
+  
+  .riwayat-pemesanan .text-wrapper-4 {
+    position: absolute;
+    top: 47px;
+    left: 308px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .text-wrapper-5 {
+    position: absolute;
+    height: 22px;
+    top: 88px;
+    left: 874px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .text-wrapper-6 {
+    position: absolute;
+    top: 106px;
+    left: 308px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .p {
+    position: absolute;
+    top: 168px;
+    left: 308px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .durian-with-ai {
+    position: absolute;
+    width: 162px;
+    height: 98px;
+    top: 69px;
+    left: 29px;
+    object-fit: cover;
+  }
+  
+  .riwayat-pemesanan .text-wrapper-7 {
+    position: absolute;
+    top: 398px;
+    left: 308px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .durian-with-ai-2 {
+    position: absolute;
+    width: 162px;
+    height: 98px;
+    top: 296px;
+    left: 29px;
+    object-fit: cover;
+  }
+  
+  .riwayat-pemesanan .text-wrapper-8 {
+    position: absolute;
+    top: 400px;
+    left: 366px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .button-checkout {
+    position: absolute;
+    width: 230px;
+    height: 75px;
+    top: 706px;
+    left: 1067px;
+  }
+  
+  .riwayat-pemesanan .div-wrapper {
+    position: relative;
+    width: 228px;
+    height: 75px;
+    background-color: #d0ff00;
+  }
+  
+  .riwayat-pemesanan .text-wrapper-9 {
+    position: absolute;
+    top: 27px;
+    left: 56px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: -0.18px;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .riwayat-pemesanan .check-square {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 125px;
+    left: 995px;
+  }
+  
+  .riwayat-pemesanan .check-square-2 {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 375px;
+    left: 996px;
+  }

@@ -1,0 +1,509 @@
+.produk {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .produk .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .produk .overlap {
+    position: relative;
+    height: 1136px;
+  }
+  
+  .produk .wp {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .produk .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 106px;
+    top: 0;
+    left: 0;
+    background-color: #ffffffbf;
+    overflow: hidden;
+  }
+  
+  .produk .collapse-navbar {
+    position: absolute;
+    width: 1012px;
+    height: 58px;
+    top: 24px;
+    left: 554px;
+  }
+  
+  .produk .navbar-nav {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    top: 2px;
+    left: 726px;
+  }
+  
+  .produk .li {
+    position: relative;
+    width: 166px;
+    height: 54px;
+  }
+  
+  .produk .a {
+    height: 54px;
+  }
+  
+  .produk .btn {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    position: relative;
+    border-radius: 37px;
+    overflow: hidden;
+  }
+  
+  .produk .icn-settings-icn-xs {
+    position: relative;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .produk .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--link-font-family);
+    font-weight: var(--link-font-weight);
+    color: #536502;
+    font-size: var(--link-font-size);
+    text-align: center;
+    letter-spacing: var(--link-letter-spacing);
+    line-height: var(--link-line-height);
+    white-space: nowrap;
+    font-style: var(--link-font-style);
+  }
+  
+  .produk .div {
+    position: absolute;
+    top: 32px;
+    left: 191px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #536502;
+    font-size: 30px;
+    letter-spacing: 0.30px;
+    line-height: normal;
+  }
+  
+  .produk .duriango {
+    position: absolute;
+    width: 117px;
+    height: 117px;
+    top: 0;
+    left: 57px;
+    object-fit: cover;
+  }
+  
+  .produk .frame {
+    position: absolute;
+    width: 1259px;
+    height: 984px;
+    top: 152px;
+    left: 90px;
+    overflow: hidden;
+  }
+  
+  .produk .overlap-group {
+    position: relative;
+    width: 1241px;
+    height: 1075px;
+    left: 9px;
+  }
+  
+  .produk .rectangle {
+    position: absolute;
+    width: 1241px;
+    height: 867px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff42;
+    border-radius: 30px;
+    border: none;
+  }
+  
+  .produk .rectangle::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: 30px;
+    background: linear-gradient(
+      95deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+    pointer-events: none;
+  }
+  
+  .produk .overlap-group-wrapper {
+    position: absolute;
+    width: 352px;
+    height: 438px;
+    top: 154px;
+    left: 852px;
+  }
+  
+  .produk .overlap-2 {
+    position: relative;
+    width: 346px;
+    height: 438px;
+  }
+  
+  .produk .rectangle-2 {
+    position: absolute;
+    width: 346px;
+    height: 275px;
+    top: 163px;
+    left: 0;
+    background-color: #d9d9d9bf;
+    border-radius: 20px;
+  }
+  
+  .produk .interface-edit-layer {
+    position: absolute;
+    width: 24px;
+    height: 23px;
+    top: 378px;
+    left: 308px;
+  }
+  
+  .produk .group {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    top: 1px;
+    left: 1px;
+  }
+  
+  .produk .overlap-group-2 {
+    position: relative;
+    width: 23px;
+    height: 23px;
+  }
+  
+  .produk .vector {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 5px;
+    left: 0;
+  }
+  
+  .produk .img {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 5px;
+  }
+  
+  .produk .group-2 {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    top: 9px;
+    left: 4px;
+  }
+  
+  .produk .lorem-ipsum-bbbacb {
+    position: absolute;
+    width: 227px;
+    top: 270px;
+    left: 16px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0.20px;
+    line-height: 24px;
+  }
+  
+  .produk .fresh-durian-durio {
+    position: absolute;
+    width: 251px;
+    height: 200px;
+    top: 0;
+    left: 48px;
+    object-fit: cover;
+  }
+  
+  .produk .text-wrapper-2 {
+    position: absolute;
+    width: 316px;
+    top: 221px;
+    left: 16px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0.20px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .produk .text-wrapper-3 {
+    position: absolute;
+    width: 201px;
+    top: 374px;
+    left: 16px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0.20px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .produk .shopping-cart {
+    position: absolute;
+    width: 24px;
+    height: 23px;
+    top: 378px;
+    left: 270px;
+  }
+  
+  .produk .group-3 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 0;
+    left: 0;
+  }
+  
+  .produk .div-wrapper {
+    position: absolute;
+    width: 352px;
+    height: 438px;
+    top: 637px;
+    left: 852px;
+  }
+  
+  .produk .overlap-group-3 {
+    position: relative;
+    height: 22px;
+    top: -4602px;
+    left: -8773px;
+  }
+  
+  .produk .vector-2 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 5px;
+    left: 0;
+  }
+  
+  .produk .vector-3 {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 0;
+    left: 5px;
+  }
+  
+  .produk .group-4 {
+    position: absolute;
+    width: 9px;
+    height: 8px;
+    top: 9px;
+    left: 4px;
+  }
+  
+  .produk .group-wrapper {
+    position: absolute;
+    width: 24px;
+    height: 23px;
+    top: 378px;
+    left: 270px;
+    overflow: hidden;
+  }
+  
+  .produk .group-5 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: -4601px;
+    left: -8734px;
+  }
+  
+  .produk .overlap-wrapper-2 {
+    position: absolute;
+    width: 352px;
+    height: 438px;
+    top: 637px;
+    left: 449px;
+  }
+  
+  .produk .overlap-group-4 {
+    position: relative;
+    height: 22px;
+    top: -4602px;
+    left: -8370px;
+  }
+  
+  .produk .group-6 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: -4601px;
+    left: -8331px;
+  }
+  
+  .produk .overlap-wrapper-3 {
+    position: absolute;
+    width: 352px;
+    height: 438px;
+    top: 637px;
+    left: 44px;
+  }
+  
+  .produk .overlap-group-5 {
+    position: relative;
+    height: 22px;
+    top: -4602px;
+    left: -7965px;
+  }
+  
+  .produk .group-7 {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: -4601px;
+    left: -7926px;
+  }
+  
+  .produk .overlap-wrapper-4 {
+    position: absolute;
+    width: 352px;
+    height: 438px;
+    top: 156px;
+    left: 44px;
+  }
+  
+  .produk .overlap-wrapper-5 {
+    position: absolute;
+    width: 352px;
+    height: 438px;
+    top: 158px;
+    left: 448px;
+  }
+  
+  .produk .rectangle-3 {
+    position: absolute;
+    width: 508px;
+    height: 84px;
+    top: 41px;
+    left: 367px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+  }
+  
+  .produk .text-wrapper-4 {
+    position: absolute;
+    top: 63px;
+    left: 481px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #536502;
+    font-size: 30px;
+    letter-spacing: 0.30px;
+    line-height: normal;
+  }
+  
+  .produk .group-8 {
+    position: absolute;
+    width: 42px;
+    height: 41px;
+    top: 60px;
+    left: 811px;
+  }
+  
+  .produk .group-9 {
+    position: absolute;
+    width: 40px;
+    height: 41px;
+    top: 121px;
+    left: 17px;
+    transform: rotate(-179.88deg);
+  }
+  
+  .produk .overlap-3 {
+    position: relative;
+    width: 41px;
+    height: 42px;
+    top: -1px;
+    left: -1px;
+  }
+  
+  .produk .vector-4 {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    top: 11px;
+    left: 14px;
+    transform: rotate(179.88deg);
+  }
+  
+  .produk .vector-5 {
+    position: absolute;
+    width: 41px;
+    height: 42px;
+    top: 0;
+    left: 0;
+    transform: rotate(179.88deg);
+  }
+  
+  .produk .group-10 {
+    position: absolute;
+    width: 40px;
+    height: 41px;
+    top: 122px;
+    left: 1383px;
+    transform: rotate(0.12deg);
+  }
+  
+  .produk .vector-6 {
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    top: 11px;
+    left: 14px;
+    transform: rotate(-0.12deg);
+  }
+  
+  .produk .vector-7 {
+    position: absolute;
+    width: 41px;
+    height: 42px;
+    top: 0;
+    left: 0;
+    transform: rotate(-0.12deg);
+  }
