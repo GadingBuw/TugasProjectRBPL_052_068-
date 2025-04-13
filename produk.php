@@ -18,7 +18,7 @@
                   <div class="a">
                     <button class="btn">
                       <img class="icn-settings-icn-xs" src="img/icn-settings-icn-xs.svg" />
-                      <div class="text-wrapper">Welcome</div>
+                      <div class="text-wrapper">Welcome , User</div>
                     </button>
                   </div>
                 </div>
